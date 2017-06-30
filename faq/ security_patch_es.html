@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Actualización de seguridad de Android deshabilita la suplantación de GPS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Actualización de seguridad de Android deshabilita la suplantación de GPS</h1>
+						<p>Fake GPS parche de seguridad de marzo de 2017</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="images/fondo.jpg" alt="" /></span>
+
+								<p>Fake GPS ya funciona con el parche de seguridad de Android de marzo 2017 en android 6.0.1 y superior, el único requisito es mover la aplicación a /system/priv-app y activar modo root en los ajustes de Fake GPS. Esta guía intentara mostrar los pasos a seguir algunos pueden variar dependiendo del modelo de teléfono.</p>
+								<h2>Steps to follow</h2>
+								<ol>
+									<li>Descargar Team Win Recovery Project (TWRP) desde la pagina oficial <a href="https://twrp.me/Devices/" target="_blank" ><span class="label"><u>https://twrp.me/Devices/</u></span></a> , buscamos mediante el modelo de teléfono. La instalación de TWRP dependerá del modelo de teléfono, con una rápida búsqueda en google puede obtener una guía para la mayoría de teléfonos, el siguiente video muestra como instalar TWRP en un Samsung Galaxy S7|S7 Edge.</li>
+									<p>
+									<div style="text-align: center;">
+									<iframe class="image fit" width="560" height="315" src="https://www.youtube.com/embed/Y2rUfsoBkgE" frameborder="0" allowfullscreen></iframe> 
+									</div>
+									<p>
+
+
+									<li>Mediante TWRP vamos a instalar Magisk y Fake Gps, descargar los dos archivos y copiar a la memoria del teléfono.</li>
+
+									<h3><a href="assets/Magisk-v12.0.zip" target="_blank" ><span class="label"><u>Descargar Magisk.zip</u></span></a></h3>
+									<h3><a href="assets/FakeGps-v2.3.zip" target="_blank" ><span class="label"><u>Descargar FakeGps.zip</u></span></a></h3>
+									<div class="box alt">
+										<div class="uniform">
+								   			<div class="12u$"><span class="image fit"><img src="images/install.png" alt="" /></span></div>
+											<div class="12u$"><span class="image fit"><img src="images/select.png" alt="" /></span></div>
+											<div class="12u$"><span class="image fit"><img src="images/log.png" alt="" /></span></div>
+
+										</div>
+									</div>
+
+
+
+
+									<li>Luego de reiniciar instalamos Magisk Manager, desde los ajustes de Magisk Manager habilitamos “Habilitar BusyBox”  y “Magisk Hide” para la detección, incluyendo SafetyNet, que se utiliza en Android Play, Pokemon GO, Mario Run, etc.</li>
+
+									<h3><a href="assets/MagiskManager-v4.3.3.apk" target="_blank" ><span class="label"><u>Descargar Magisk Manager </u></span></a></h3>
+									<div class="box alt">
+										<div class="uniform">
+								   			<div class="12u$"><span class="image fit"><img src="images/screen1.png" alt="" /></span></div>
+											<div class="12u$"><span class="image fit"><img src="images/screen4.png" alt="" /></span></div>
+											<div class="12u$"><span class="image fit"><img src="images/screen2.png" alt="" /></span></div>
+
+										</div>
+									</div>
+
+
+									<li>Ahora ya podemos utilizar Fake GPS para saltar el parche de seguridad de Android y evitar que las app o juegos detecten suplantación de GPS.</li>
+								</ol>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Contact</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>Valencia, Spain</dd>
+								<dt>Email</dt>
+								<dd><a href="mailto:dgsmartstudio@gmail.com">dgsmartstudio@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://twitter.com/fakegpslocation" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/fakegpsgo/" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+					<!-- 			<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li> -->
+							</ul>
+						</section>
+						<p class="copyright">&copy; Copyright SmartStudio. <a href="privacy_en.html">Privacy  Policy</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
